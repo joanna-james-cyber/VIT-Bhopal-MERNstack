@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News & Articles</title>
+  <style>
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titlebar {
+      text-align: center;
+      padding: 20px 12px;
+    }
+    .titlebar h1 {
+      margin: 0;
+      font-size: 34px;
+    }
+
+    .bar {
+      background: #303030;
+      width: 100%;
+    }
+    .bar .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 8px 12px;
+    }
+    .bar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .bar li {
+      display: inline-block;
+      margin-right: 18px;
+    }
+    .bar a {
+      display: inline-block;
+      text-decoration: none;
+      color: #e8e8e8;
+      padding: 6px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .bar a:hover {
+      background: #1f1f1f;
+      color: #fff;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 18px auto 54px;
+      padding: 0 12px;
+    }
+
+    .box {
+      background: #fff;
+      border: 1px solid #ededed;
+      border-radius: 10px;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.06);
+      padding: 14px;
+      margin-bottom: 26px;
+    }
+    .box h2 {
+      margin: 4px 4px 8px 4px;
+      font-size: 20px;
+    }
+
+    .entry {
+      border-top: 1px solid #ededed;
+      padding: 12px 6px;
+    }
+    .entry:first-of-type {
+      border-top: none;
+    }
+    .entry h3 {
+      margin: 0 0 6px 0;
+      font-size: 18px;
+    }
+    .entry p {
+      margin: 0 0 8px 0;
+      color: #666;
+      line-height: 1.45;
+      font-size: 15px;
+    }
+    .entry a {
+      color: #0a6bcd;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .entry a:hover {
+      text-decoration: underline;
+    }
+
+    .foot {
+      background: #303030;
+      color: #d6d6d6;
+      text-align: center;
+      padding: 10px 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="titlebar">
+    <h1>Welcome to News & Articles</h1>
+  </header>
+
+  <nav class="bar" aria-label="Main">
+    <div class="inner">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section class="box">
+      <h2>Latest Articles</h2>
+
+      <div class="entry">
+        <h3>HTML: Getting Started</h3>
+        <p>Learn the key parts of HTML like tags, attributes, and how a simple page is put together.</p>
+        <a href="#">Read more</a>
+      </div>
+
+      <div class="entry">
+        <h3>First Steps with CSS</h3>
+        <p>Use basic CSS rules to change colors, fonts, spacing, and make pages easier to read.</p>
+        <a href="#">Read more</a>
+      </div>
+    </section>
+
+    <section class="box">
+      <h2>Latest News</h2>
+
+      <div class="entry">
+        <h3>Trends to Watch in 2025</h3>
+        <p>A quick look at tools and ideas that are popular in web development this year.</p>
+        <a href="#">Read more</a>
+      </div>
+
+      <div class="entry">
+        <h3>What’s New in JavaScript</h3>
+        <p>Recent features and small updates that can improve your workflow.</p>
+        <a href="#">Read more</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">© 2025 News & Articles. All rights reserved.</footer>
+
+</body>
+</html>
